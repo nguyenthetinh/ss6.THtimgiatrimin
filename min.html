@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=[9,8,12,4,6,34]
+    let min=mina(a)
+    alert(min)
+    function mina(a) {
+        if (a.length==0) {
+            return -1;
+        }
+        let min=a[0];
+        for (i=0 ; i<a.length ;i++){
+            if (a[i]<min){
+                min=a[i]
+            }
+
+        }
+        return min;
+    }
+</script>
+</body>
+</html>
